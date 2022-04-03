@@ -1,0 +1,2 @@
+# AlexBot
+Individual part of the final exam in course DATA2410 at OsloMet – Oslo Metropolitan University. The task was to create a chatroom where users and bots can connect and chat. Users can send messages while bots can only reply to them. Multiple users can correspond with each other and ask questions to bots in parallel. It is expected to have four bots that answer questions differently depending on the verb used in the question.
