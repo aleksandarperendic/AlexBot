@@ -4,7 +4,7 @@
 
 This is first and individual part of the final exam in course **DATA2410** at OsloMet – Oslo Metropolitan University. Briefly described, the task is to create a chatroom where users and bots can connect and chat. Users can send messages while bots can only reply to them. Multiple users can correspond with each other and ask questions to bots in parallel. It is expected to have four bots that answer questions differently depending on the verb used in the question.
 
-**Structure:**
+**Project Structure:**
  
 | Assignment Title                  |                                            Socket Bots                                         | 
 |:----------------------------------|:----------------------------------------------------------------------------------------------:|
@@ -14,6 +14,16 @@ This is first and individual part of the final exam in course **DATA2410** at Os
 | Progress                          | <ul><li>[x] Preparation</li><li>[x] Coding</li><li>[X] PDF Report</li><li>[X] Review</li></ul> |  
 | Submitted                         |                                           :white_check_mark:                                   |
 
+**File Structure:**
+
+```bash
+├── Essentials              
+│   ├── Bots.py             # Parts of code that have to do with bots
+│   ├── Words.py            # Arrays with greetings, and some positive and negative verbs
+│   └── configFiles.py      # Configuration file for commands in server and colouring
+├── TCP_Client.py           # Client code, sending and receiving functions
+└── TCP_Server.py           # Server code, listening to connections and broadcasting
+```
 
 ## How to use
 
