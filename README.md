@@ -1,4 +1,4 @@
-# AlexBot - Code will be published after 01.05.
+# AlexBot
 
 ## Introduction
 
